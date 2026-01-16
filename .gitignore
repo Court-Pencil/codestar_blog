@@ -1,1 +1,30 @@
-.venv/
+core.Microsoft*
+core.mongo*
+core.python*
+env.py
+__pycache__/
+*.py[cod]
+node_modules/
+.github/
+cloudinary_python.txt
+.venv
+# Django database
+db.sqlite3
+
+# Django static & media
+staticfiles/
+media/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
